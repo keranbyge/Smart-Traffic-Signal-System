@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Traffic Signal Timing System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>🚦 Smart Traffic Signal Timing System</h1>
+
+  <div class="container">
+
+    <div class="road">
+      <h2>Road A</h2>
+      <input type="number" id="inputA" placeholder="Enter Vehicles">
+      <div class="signal red" id="signalA"></div>
+    </div>
+
+    <div class="road">
+      <h2>Road B</h2>
+      <input type="number" id="inputB" placeholder="Enter Vehicles">
+      <div class="signal red" id="signalB"></div>
+    </div>
+
+    <div class="road">
+      <h2>Road C</h2>
+      <input type="number" id="inputC" placeholder="Enter Vehicles">
+      <div class="signal red" id="signalC"></div>
+    </div>
+
+    <div class="road">
+      <h2>Road D</h2>
+      <input type="number" id="inputD" placeholder="Enter Vehicles">
+      <div class="signal red" id="signalD"></div>
+    </div>
+
+  </div>
+
+  <button onclick="startSimulation()">
+    Start Simulation
+  </button>
+
+  <h2 id="current"></h2>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
